@@ -112,6 +112,7 @@ with st.form("triage_form"):
     with c1:
         fever = st.checkbox("🌡️ Fever")
         cough = st.checkbox("🤧 Cough")
+        skin_rash = st.checkbox("🔴 Skin - Rash")
 
     with c2:
         headache = st.checkbox("🤕 Headache")
@@ -124,8 +125,6 @@ with st.form("triage_form"):
     with c4:
         nausea_vomiting = st.checkbox("🤮 Nausea / Vomiting")
         dizziness = st.checkbox("😵 Dizziness")
-
-    skin_rash = st.checkbox("🔴 Skin Rash")
 
     st.divider()
 
