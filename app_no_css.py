@@ -2,16 +2,6 @@ import streamlit as st
 import pandas as pd
 import pickle
 
-# 1 CSS for Light Mode
-st.markdown("""
-<style>
-.stApp {
-    background-color: white;
-    color: black;
-}
-</style>
-""", unsafe_allow_html=True)
-
 st.set_page_config(
     page_title="Smart Hospital Patient Navigator",
     page_icon="🏥",
