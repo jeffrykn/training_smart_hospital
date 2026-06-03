@@ -107,7 +107,7 @@ with st.form("triage_form"):
     st.header("1. What are your main symptoms?")
     st.caption("Select all that apply")
 
-    c1, c2, c3, c4 = st.columns(4)
+    c1, c2, c3 = st.columns(3)
 
     with c1:
         fever = st.checkbox("🌡️ Fever")
@@ -117,12 +117,10 @@ with st.form("triage_form"):
     with c2:
         headache = st.checkbox("🤕 Headache")
         chest_pain = st.checkbox("💔 Chest Pain")
+        stomach_pain = st.checkbox("🤢 Stomach Pain")
 
     with c3:
-        stomach_pain = st.checkbox("🤢 Stomach Pain")
         shortness_breath = st.checkbox("😮‍💨 Shortness of Breath")
-
-    with c4:
         nausea_vomiting = st.checkbox("🤮 Nausea / Vomiting")
         dizziness = st.checkbox("😵 Dizziness")
 
