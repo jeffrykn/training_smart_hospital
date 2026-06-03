@@ -295,6 +295,3 @@ if submitted:
         "Accuracy: 99.5%\n\n"
         "Powered by Future Classroom ML"
     )
-
-
-This version removes all CSS and custom HTML styling and uses only standard Streamlit components.
