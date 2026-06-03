@@ -93,9 +93,9 @@ DEPT_INFO = {
 # -----------------------------
 # Header
 # -----------------------------
-st.title("🏥 Smart Hospital Patient Navigator")
-st.subheader("Find the Right Department for Your Symptoms")
-st.caption("Future Classroom · Machine Learning")
+st.subheader("🏥 Future Classroom · Machine Learning")
+st.title("Smart Hospital Patient Navigator")
+st.caption("Find the Right Department for Your Symptoms")
 
 st.divider()
 
@@ -112,7 +112,7 @@ with st.form("triage_form"):
     with c1:
         fever = st.checkbox("🌡️ Fever")
         cough = st.checkbox("🤧 Cough")
-        skin_rash = st.checkbox("🔴 Skin - Rash")
+        skin_rash = st.checkbox("🔴 Skin Rash")
 
     with c2:
         headache = st.checkbox("🤕 Headache")
